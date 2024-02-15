@@ -9,6 +9,9 @@
     height: 60px;
     background-color: #0f1111;
     color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo{
@@ -28,4 +31,81 @@
 }
 .border:hover{
     border: 1px solid white;
+}
+
+.delivery-to-text{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.delivery-address{
+    display: flex;
+    align-items: center;
+}
+
+.delivery-address-text{
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+.nav-search{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-search-select{
+    /* height: 100%; */
+    width:50px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.nav-search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.nav-search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #14b2f6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+.nav-sign-in-title{
+    font-size: 0.7rem;
+}
+
+.nav-sign-in{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-return-title{
+    font-size: 0.7rem;
+}
+
+.nav-return{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
