@@ -133,3 +133,53 @@
     width: 70%;
     font-size: 0.85rem;
 }
+
+.hero-section{
+    height: 450px;
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-location-msg{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 20px;
+    background-color: #14b2f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #d3d3d3;
+}
+
+.top-content-card{
+    height: 400px;
+    width: 23%;
+    background-color: #ffffff;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-image{
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-image img{
+    height: 100%;
+    width: 90%;
+    /* object-fit: fill; */
+}
